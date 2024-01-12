@@ -25,9 +25,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/pdfcpu/pdfcpu/pkg/log"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
+	"github.com/meandrewdev/pdfcpu/pkg/log"
+	"github.com/meandrewdev/pdfcpu/pkg/pdfcpu/model"
+	"github.com/meandrewdev/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
 )
 

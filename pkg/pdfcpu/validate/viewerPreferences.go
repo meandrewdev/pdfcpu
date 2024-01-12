@@ -17,8 +17,8 @@ limitations under the License.
 package validate
 
 import (
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
+	"github.com/meandrewdev/pdfcpu/pkg/pdfcpu/model"
+	"github.com/meandrewdev/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
 )
 
@@ -223,14 +223,16 @@ func validateViewerPreferences(xRefTable *model.XRefTable, rootDict types.Dict, 
 		vp.NonFullScreenPageMode = (*model.NonFullScreenPageMode)(model.PageModeFor(n.String()))
 	}
 
-	validate = func(s string) bool { return types.MemberOf(s, []string{"L2R", "R2L"}) }
-	n, err = validateNameEntry(xRefTable, d, dictName, "Direction", OPTIONAL, model.V13, validate)
-	if err != nil {
-		return err
-	}
-	if n != nil {
-		vp.Direction = model.DirectionFor(n.String())
-	}
+	/*
+		validate = func(s string) bool { return types.MemberOf(s, []string{"L2R", "R2L"}) }
+		n, err = validateNameEntry(xRefTable, d, dictName, "Direction", OPTIONAL, model.V13, validate)
+		if err != nil {
+			return err
+		}
+		if n != nil {
+			vp.Direction = model.DirectionFor(n.String())
+		}
+	*/
 
 	if err := validatePageBoundaries(xRefTable, d, dictName, &vp); err != nil {
 		return err

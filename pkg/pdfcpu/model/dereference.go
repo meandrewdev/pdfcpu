@@ -19,7 +19,7 @@ package model
 import (
 	"strings"
 
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
+	"github.com/meandrewdev/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
 )
 

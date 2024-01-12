@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"strings"
 
-	pdffont "github.com/pdfcpu/pdfcpu/pkg/pdfcpu/font"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/primitives"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
+	pdffont "github.com/meandrewdev/pdfcpu/pkg/pdfcpu/font"
+	"github.com/meandrewdev/pdfcpu/pkg/pdfcpu/model"
+	"github.com/meandrewdev/pdfcpu/pkg/pdfcpu/primitives"
+	"github.com/meandrewdev/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
 )
 

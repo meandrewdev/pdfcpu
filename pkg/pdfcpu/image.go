@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pdfcpu/pdfcpu/pkg/log"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/draw"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
+	"github.com/meandrewdev/pdfcpu/pkg/log"
+	"github.com/meandrewdev/pdfcpu/pkg/pdfcpu/draw"
+	"github.com/meandrewdev/pdfcpu/pkg/pdfcpu/model"
+	"github.com/meandrewdev/pdfcpu/pkg/pdfcpu/types"
 )
 
 // Images returns all embedded images of ctx.

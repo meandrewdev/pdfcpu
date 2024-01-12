@@ -23,7 +23,7 @@
 FROM golang:latest as builder
 
 # install
-RUN go install github.com/pdfcpu/pdfcpu/cmd/pdfcpu@latest
+RUN go install github.com/meandrewdev/pdfcpu/cmd/pdfcpu@latest
 
 ######## Start a new stage from scratch #######
 

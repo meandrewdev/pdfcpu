@@ -18,8 +18,8 @@ limitations under the License.
 package cli
 
 import (
-	"github.com/pdfcpu/pdfcpu/pkg/api"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
+	"github.com/meandrewdev/pdfcpu/pkg/api"
+	"github.com/meandrewdev/pdfcpu/pkg/pdfcpu/model"
 	"github.com/pkg/errors"
 )
 
